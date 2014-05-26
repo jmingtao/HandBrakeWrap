@@ -22,6 +22,7 @@
 		8431C2C919335BF900EDA2B4 /* MovieConversionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431C2C219335BF900EDA2B4 /* MovieConversionOperation.m */; };
 		8431C2CA19335BF900EDA2B4 /* MovieConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431C2C419335BF900EDA2B4 /* MovieConverter.m */; };
 		8431C2CB19335BF900EDA2B4 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431C2C719335BF900EDA2B4 /* RegexKitLite.m */; };
+		8431C2CD19335CD100EDA2B4 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8431C2CC19335CD100EDA2B4 /* libicucore.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		8431C2C419335BF900EDA2B4 /* MovieConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieConverter.m; sourceTree = "<group>"; };
 		8431C2C619335BF900EDA2B4 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
 		8431C2C719335BF900EDA2B4 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		8431C2CC19335CD100EDA2B4 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8431C2CD19335CD100EDA2B4 /* libicucore.dylib in Frameworks */,
 				8431C28B19335BD600EDA2B4 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,6 +111,7 @@
 		8431C28919335BD600EDA2B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8431C2CC19335CD100EDA2B4 /* libicucore.dylib */,
 				8431C28A19335BD600EDA2B4 /* Cocoa.framework */,
 				8431C2A919335BD600EDA2B4 /* XCTest.framework */,
 				8431C28C19335BD600EDA2B4 /* Other Frameworks */,
