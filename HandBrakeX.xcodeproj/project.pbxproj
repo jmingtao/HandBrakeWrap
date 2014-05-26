@@ -18,6 +18,10 @@
 		8431C2AB19335BD600EDA2B4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8431C28A19335BD600EDA2B4 /* Cocoa.framework */; };
 		8431C2B319335BD600EDA2B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8431C2B119335BD600EDA2B4 /* InfoPlist.strings */; };
 		8431C2B519335BD600EDA2B4 /* HandBrakeXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431C2B419335BD600EDA2B4 /* HandBrakeXTests.m */; };
+		8431C2C819335BF900EDA2B4 /* MovieConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431C2BF19335BF900EDA2B4 /* MovieConversion.m */; };
+		8431C2C919335BF900EDA2B4 /* MovieConversionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431C2C219335BF900EDA2B4 /* MovieConversionOperation.m */; };
+		8431C2CA19335BF900EDA2B4 /* MovieConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431C2C419335BF900EDA2B4 /* MovieConverter.m */; };
+		8431C2CB19335BF900EDA2B4 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431C2C719335BF900EDA2B4 /* RegexKitLite.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,15 @@
 		8431C2B019335BD600EDA2B4 /* HandBrakeXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HandBrakeXTests-Info.plist"; sourceTree = "<group>"; };
 		8431C2B219335BD600EDA2B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8431C2B419335BD600EDA2B4 /* HandBrakeXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandBrakeXTests.m; sourceTree = "<group>"; };
+		8431C2BE19335BF900EDA2B4 /* MovieConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieConversion.h; sourceTree = "<group>"; };
+		8431C2BF19335BF900EDA2B4 /* MovieConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieConversion.m; sourceTree = "<group>"; };
+		8431C2C019335BF900EDA2B4 /* MovieConversion+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MovieConversion+Private.h"; sourceTree = "<group>"; };
+		8431C2C119335BF900EDA2B4 /* MovieConversionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieConversionOperation.h; sourceTree = "<group>"; };
+		8431C2C219335BF900EDA2B4 /* MovieConversionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieConversionOperation.m; sourceTree = "<group>"; };
+		8431C2C319335BF900EDA2B4 /* MovieConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieConverter.h; sourceTree = "<group>"; };
+		8431C2C419335BF900EDA2B4 /* MovieConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieConverter.m; sourceTree = "<group>"; };
+		8431C2C619335BF900EDA2B4 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		8431C2C719335BF900EDA2B4 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +128,14 @@
 		8431C29019335BD600EDA2B4 /* HandBrakeX */ = {
 			isa = PBXGroup;
 			children = (
+				8431C2BE19335BF900EDA2B4 /* MovieConversion.h */,
+				8431C2BF19335BF900EDA2B4 /* MovieConversion.m */,
+				8431C2C019335BF900EDA2B4 /* MovieConversion+Private.h */,
+				8431C2C119335BF900EDA2B4 /* MovieConversionOperation.h */,
+				8431C2C219335BF900EDA2B4 /* MovieConversionOperation.m */,
+				8431C2C319335BF900EDA2B4 /* MovieConverter.h */,
+				8431C2C419335BF900EDA2B4 /* MovieConverter.m */,
+				8431C2C519335BF900EDA2B4 /* RegexKitLite-4.0 */,
 				8431C29C19335BD600EDA2B4 /* AppDelegate.h */,
 				8431C29D19335BD600EDA2B4 /* AppDelegate.m */,
 				8431C29F19335BD600EDA2B4 /* MainMenu.xib */,
@@ -152,6 +173,15 @@
 				8431C2B119335BD600EDA2B4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8431C2C519335BF900EDA2B4 /* RegexKitLite-4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				8431C2C619335BF900EDA2B4 /* RegexKitLite.h */,
+				8431C2C719335BF900EDA2B4 /* RegexKitLite.m */,
+			);
+			path = "RegexKitLite-4.0";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8431C2CB19335BF900EDA2B4 /* RegexKitLite.m in Sources */,
+				8431C2CA19335BF900EDA2B4 /* MovieConverter.m in Sources */,
+				8431C2C919335BF900EDA2B4 /* MovieConversionOperation.m in Sources */,
+				8431C2C819335BF900EDA2B4 /* MovieConversion.m in Sources */,
 				8431C29E19335BD600EDA2B4 /* AppDelegate.m in Sources */,
 				8431C29719335BD600EDA2B4 /* main.m in Sources */,
 			);
