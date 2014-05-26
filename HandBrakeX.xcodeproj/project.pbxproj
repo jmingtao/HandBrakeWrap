@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8431C28B19335BD600EDA2B4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8431C28A19335BD600EDA2B4 /* Cocoa.framework */; };
+		8431C29519335BD600EDA2B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8431C29319335BD600EDA2B4 /* InfoPlist.strings */; };
+		8431C29719335BD600EDA2B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431C29619335BD600EDA2B4 /* main.m */; };
+		8431C29B19335BD600EDA2B4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8431C29919335BD600EDA2B4 /* Credits.rtf */; };
+		8431C29E19335BD600EDA2B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431C29D19335BD600EDA2B4 /* AppDelegate.m */; };
+		8431C2A119335BD600EDA2B4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8431C29F19335BD600EDA2B4 /* MainMenu.xib */; };
+		8431C2A319335BD600EDA2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8431C2A219335BD600EDA2B4 /* Images.xcassets */; };
+		8431C2AA19335BD600EDA2B4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8431C2A919335BD600EDA2B4 /* XCTest.framework */; };
+		8431C2AB19335BD600EDA2B4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8431C28A19335BD600EDA2B4 /* Cocoa.framework */; };
+		8431C2B319335BD600EDA2B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8431C2B119335BD600EDA2B4 /* InfoPlist.strings */; };
+		8431C2B519335BD600EDA2B4 /* HandBrakeXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431C2B419335BD600EDA2B4 /* HandBrakeXTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8431C2AC19335BD600EDA2B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8431C27F19335BD600EDA2B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8431C28619335BD600EDA2B4;
+			remoteInfo = HandBrakeX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8431C28719335BD600EDA2B4 /* HandBrakeX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandBrakeX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8431C28A19335BD600EDA2B4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8431C28D19335BD600EDA2B4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8431C28E19335BD600EDA2B4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8431C28F19335BD600EDA2B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8431C29219335BD600EDA2B4 /* HandBrakeX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HandBrakeX-Info.plist"; sourceTree = "<group>"; };
+		8431C29419335BD600EDA2B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8431C29619335BD600EDA2B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8431C29819335BD600EDA2B4 /* HandBrakeX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HandBrakeX-Prefix.pch"; sourceTree = "<group>"; };
+		8431C29A19335BD600EDA2B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8431C29C19335BD600EDA2B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8431C29D19335BD600EDA2B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8431C2A019335BD600EDA2B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8431C2A219335BD600EDA2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8431C2A819335BD600EDA2B4 /* HandBrakeXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandBrakeXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8431C2A919335BD600EDA2B4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8431C2B019335BD600EDA2B4 /* HandBrakeXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HandBrakeXTests-Info.plist"; sourceTree = "<group>"; };
+		8431C2B219335BD600EDA2B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8431C2B419335BD600EDA2B4 /* HandBrakeXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandBrakeXTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8431C28419335BD600EDA2B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8431C28B19335BD600EDA2B4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8431C2A519335BD600EDA2B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8431C2AB19335BD600EDA2B4 /* Cocoa.framework in Frameworks */,
+				8431C2AA19335BD600EDA2B4 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8431C27E19335BD600EDA2B4 = {
+			isa = PBXGroup;
+			children = (
+				8431C29019335BD600EDA2B4 /* HandBrakeX */,
+				8431C2AE19335BD600EDA2B4 /* HandBrakeXTests */,
+				8431C28919335BD600EDA2B4 /* Frameworks */,
+				8431C28819335BD600EDA2B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8431C28819335BD600EDA2B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8431C28719335BD600EDA2B4 /* HandBrakeX.app */,
+				8431C2A819335BD600EDA2B4 /* HandBrakeXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8431C28919335BD600EDA2B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8431C28A19335BD600EDA2B4 /* Cocoa.framework */,
+				8431C2A919335BD600EDA2B4 /* XCTest.framework */,
+				8431C28C19335BD600EDA2B4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8431C28C19335BD600EDA2B4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8431C28D19335BD600EDA2B4 /* AppKit.framework */,
+				8431C28E19335BD600EDA2B4 /* CoreData.framework */,
+				8431C28F19335BD600EDA2B4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8431C29019335BD600EDA2B4 /* HandBrakeX */ = {
+			isa = PBXGroup;
+			children = (
+				8431C29C19335BD600EDA2B4 /* AppDelegate.h */,
+				8431C29D19335BD600EDA2B4 /* AppDelegate.m */,
+				8431C29F19335BD600EDA2B4 /* MainMenu.xib */,
+				8431C2A219335BD600EDA2B4 /* Images.xcassets */,
+				8431C29119335BD600EDA2B4 /* Supporting Files */,
+			);
+			path = HandBrakeX;
+			sourceTree = "<group>";
+		};
+		8431C29119335BD600EDA2B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8431C29219335BD600EDA2B4 /* HandBrakeX-Info.plist */,
+				8431C29319335BD600EDA2B4 /* InfoPlist.strings */,
+				8431C29619335BD600EDA2B4 /* main.m */,
+				8431C29819335BD600EDA2B4 /* HandBrakeX-Prefix.pch */,
+				8431C29919335BD600EDA2B4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8431C2AE19335BD600EDA2B4 /* HandBrakeXTests */ = {
+			isa = PBXGroup;
+			children = (
+				8431C2B419335BD600EDA2B4 /* HandBrakeXTests.m */,
+				8431C2AF19335BD600EDA2B4 /* Supporting Files */,
+			);
+			path = HandBrakeXTests;
+			sourceTree = "<group>";
+		};
+		8431C2AF19335BD600EDA2B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8431C2B019335BD600EDA2B4 /* HandBrakeXTests-Info.plist */,
+				8431C2B119335BD600EDA2B4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8431C28619335BD600EDA2B4 /* HandBrakeX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8431C2B819335BD600EDA2B4 /* Build configuration list for PBXNativeTarget "HandBrakeX" */;
+			buildPhases = (
+				8431C28319335BD600EDA2B4 /* Sources */,
+				8431C28419335BD600EDA2B4 /* Frameworks */,
+				8431C28519335BD600EDA2B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandBrakeX;
+			productName = HandBrakeX;
+			productReference = 8431C28719335BD600EDA2B4 /* HandBrakeX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8431C2A719335BD600EDA2B4 /* HandBrakeXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8431C2BB19335BD600EDA2B4 /* Build configuration list for PBXNativeTarget "HandBrakeXTests" */;
+			buildPhases = (
+				8431C2A419335BD600EDA2B4 /* Sources */,
+				8431C2A519335BD600EDA2B4 /* Frameworks */,
+				8431C2A619335BD600EDA2B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8431C2AD19335BD600EDA2B4 /* PBXTargetDependency */,
+			);
+			name = HandBrakeXTests;
+			productName = HandBrakeXTests;
+			productReference = 8431C2A819335BD600EDA2B4 /* HandBrakeXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8431C27F19335BD600EDA2B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jinmingtao;
+				TargetAttributes = {
+					8431C2A719335BD600EDA2B4 = {
+						TestTargetID = 8431C28619335BD600EDA2B4;
+					};
+				};
+			};
+			buildConfigurationList = 8431C28219335BD600EDA2B4 /* Build configuration list for PBXProject "HandBrakeX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8431C27E19335BD600EDA2B4;
+			productRefGroup = 8431C28819335BD600EDA2B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8431C28619335BD600EDA2B4 /* HandBrakeX */,
+				8431C2A719335BD600EDA2B4 /* HandBrakeXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8431C28519335BD600EDA2B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8431C29519335BD600EDA2B4 /* InfoPlist.strings in Resources */,
+				8431C2A319335BD600EDA2B4 /* Images.xcassets in Resources */,
+				8431C29B19335BD600EDA2B4 /* Credits.rtf in Resources */,
+				8431C2A119335BD600EDA2B4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8431C2A619335BD600EDA2B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8431C2B319335BD600EDA2B4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8431C28319335BD600EDA2B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8431C29E19335BD600EDA2B4 /* AppDelegate.m in Sources */,
+				8431C29719335BD600EDA2B4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8431C2A419335BD600EDA2B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8431C2B519335BD600EDA2B4 /* HandBrakeXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8431C2AD19335BD600EDA2B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8431C28619335BD600EDA2B4 /* HandBrakeX */;
+			targetProxy = 8431C2AC19335BD600EDA2B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8431C29319335BD600EDA2B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8431C29419335BD600EDA2B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8431C29919335BD600EDA2B4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8431C29A19335BD600EDA2B4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8431C29F19335BD600EDA2B4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8431C2A019335BD600EDA2B4 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		8431C2B119335BD600EDA2B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8431C2B219335BD600EDA2B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8431C2B619335BD600EDA2B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8431C2B719335BD600EDA2B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8431C2B919335BD600EDA2B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HandBrakeX/HandBrakeX-Prefix.pch";
+				INFOPLIST_FILE = "HandBrakeX/HandBrakeX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8431C2BA19335BD600EDA2B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HandBrakeX/HandBrakeX-Prefix.pch";
+				INFOPLIST_FILE = "HandBrakeX/HandBrakeX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8431C2BC19335BD600EDA2B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HandBrakeX.app/Contents/MacOS/HandBrakeX";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HandBrakeX/HandBrakeX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HandBrakeXTests/HandBrakeXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8431C2BD19335BD600EDA2B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HandBrakeX.app/Contents/MacOS/HandBrakeX";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HandBrakeX/HandBrakeX-Prefix.pch";
+				INFOPLIST_FILE = "HandBrakeXTests/HandBrakeXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8431C28219335BD600EDA2B4 /* Build configuration list for PBXProject "HandBrakeX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8431C2B619335BD600EDA2B4 /* Debug */,
+				8431C2B719335BD600EDA2B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8431C2B819335BD600EDA2B4 /* Build configuration list for PBXNativeTarget "HandBrakeX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8431C2B919335BD600EDA2B4 /* Debug */,
+				8431C2BA19335BD600EDA2B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8431C2BB19335BD600EDA2B4 /* Build configuration list for PBXNativeTarget "HandBrakeXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8431C2BC19335BD600EDA2B4 /* Debug */,
+				8431C2BD19335BD600EDA2B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8431C27F19335BD600EDA2B4 /* Project object */;
+}
